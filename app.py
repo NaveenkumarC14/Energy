@@ -23,4 +23,5 @@ res = rq.get(url, auth = ("naveenkumarc_14", "Naveen@66"))
 res.text
 #json.literal_eval(res.text)
 
-st.json(res.text)
+jsonData = st.json(res.text)
+jsonData.StateName
