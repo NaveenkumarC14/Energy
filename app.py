@@ -21,7 +21,7 @@ post_body = {
 }
 res = rq.get(url, auth = ("naveenkumarc_14", "Naveen@66"))
 stateName = str(res.json()["StateName"]) + ""
-CO2 = str(res.json()["CO2"]) + "tCO2"
+CO2 = str(res.json()["CO2"]) + " tCO2"
 CO2_Date  = str(res.json()["CO2_Date"]) + ""
 solar_gen = str(res.json()["solar_gen"]) + "MU"
 solar_gen_date = str(res.json()["solar_gen_date"]) + ""
