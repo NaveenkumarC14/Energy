@@ -36,10 +36,17 @@ st.markdown('''
 <div class="jumbotron text-center" style='padding: 0px';background-color:#fff>
  <div class="row" style="background-color:#fff;width:100%;margin:auto;">
 <div 
-      <p style='text-align:center;  font-size: 15px; color: red'>'>Solar</p>
-      <p style='text-align: center; font-size: 15px; color: red'></p>
-     <p style='text-align: center; font-size: 15px; color: red'>''' + str(CO2) +'''</p>
-      <p style='text-align: center; font-size: 15px; color: red'>''' + str(CO2_Date) +'''</p>
+      <p style='text-align:center;  font-size: 15px; color: green'>'Solar</p>
+      <p style='text-align: center; font-size: 15px; color: green'></p>
+     <p style='text-align: center; font-size: 15px; color: green'>''' + str(CO2) +'''</p>
+      <p style='text-align: center; font-size: 15px; color: green'>''' + str(CO2_Date) +'''</p>
+      
+ <div 
+      <p style='text-align:center;  font-size: 15px; color: green'>'Solar</p>
+      <p style='text-align: center; font-size: 15px; color: green'></p>
+     <p style='text-align: center; font-size: 15px; color: green'>''' + str(solar_gen) +'''</p>
+      <p style='text-align: center; font-size: 15px; color: green'>''' + str(solar_gen_date) +'''</p>
+ </div>
  </div>
   </div>
 </div>
