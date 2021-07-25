@@ -10,7 +10,8 @@ str(state_code)
 import requests as rq
 url = "https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy"
 headers = { "Authorization" : "Basic bmF2ZWVua3VtYXJjXzE0Ok5hdmVlbkA2Ng==",
-"Content-Type" : "application/json" }
+		"Content-Type" : "application/json",
+	  	"Accept" : "application/json" }
 post_body = {
 	"StateCode" : state_code
 }
