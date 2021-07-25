@@ -43,7 +43,7 @@ st.markdown('''
       
       <p style='text-align: center; font-size: 15px; color: black'></p>
       <p style='text-align: center; font-size: 40px; font-weight: 600; color: black'>''' + str(solar_gen) + '''</p>
-      <p style='text-align:center; font-weight: 400 ; color: black'>Solar Generation</p
+      <p style='text-align:center; font-weight: 400 ; color: black'>Solar Generation</p>
       <p style='text-align:center; font-weight: 400 ; color: black'>''' + solar_gen_date + '''</p>
     </div>    
     <div class="row-sm-3">    
