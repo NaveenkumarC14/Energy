@@ -8,7 +8,7 @@ state_code=state['StateCode'].iloc[0]
 #str(state_code)
 
 import requests as rq
-import ujson as json
+#import ujson as json
 url = "https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy?st=" +str(state_code)
 #r=rq.get("https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy?st=1",auth = ("naveenkumarc_14", "Naveen@66"))
 #r.status_code
@@ -21,6 +21,6 @@ post_body = {
 }
 res = rq.get(url, auth = ("naveenkumarc_14", "Naveen@66"))
 res.text
-json.literal_eval(res.text)
+#json.literal_eval(res.text)
 
 st.json(res.text)
