@@ -30,4 +30,4 @@ re_capacity = str(res.json()["re_capacity"]) + "MW"
 re_capacity_date = str(res.json()["re_capacity_date"]) + ""
 
 
-st.set_page_config(page_title='hello',layout-'wide')
+st.set_page_config(page_title='hello',layout='wide')
