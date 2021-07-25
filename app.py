@@ -46,13 +46,13 @@ st.markdown('''
      <div class="row-sm-4">
       <p style='text-align:center;  font-size: 15px; color: green'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: green'></p>
-     <p style='text-align: center; font-size: 15px; color: green'>''' + str(solar_gen) +'''</p>
+     <p style='text-align: center ; font-size: 42px; font-weight: bold; color: blue'>''' + str(solar_gen) +'''</p>
       <p style='text-align: center; font-size: 15px; color: green'>''' + str(solar_gen_date) +'''</p>
       </div>
    <div 
       <p style='text-align:center;  font-size: 15px; color: green'>RE Capasity</p>
       <p style='text-align: center; font-size: 15px; color: green'></p>
-     <p style='text-align: center; font-size: 15px; color: green'>''' + str(re_capacity) +'''</p>
+     <p style='text-align: center ; font-size: 42px; font-weight: bold; color: blue'>''' + str(re_capacity) +'''</p>
       <p style='text-align: center; font-size: 15px; color: green'>''' + str(re_capacity_date) +'''</p>
  </div>
  </div>
