@@ -37,8 +37,8 @@ st.markdown('''
             <div class="card-body" style="height:150px;background-color: #d1f0a2">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
-                        
-			<p style='text-align: center; font-size: 40px; font-weight: 600; color: red'>''' + str(CO2) + '''</p>
+<div
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color: red'>''' + str(CO2) + '''</p></div>
                         <div class="card-title-1">CO<sub>2</sub> emissions mitigated</div>                        
                         <div class="card-date-1">''' + CO2_Date +''' </div>
                     </div>
