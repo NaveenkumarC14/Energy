@@ -43,10 +43,12 @@ st.markdown('''
       <p style='text-align: center; font-size: 15px; color: green'>''' + str(CO2_Date) +'''</p>
       </div>
  <div 
+     <div class="row-sm-4">
       <p style='text-align:center;  font-size: 15px; color: green'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: green'></p>
      <p style='text-align: center; font-size: 15px; color: green'>''' + str(solar_gen) +'''</p>
       <p style='text-align: center; font-size: 15px; color: green'>''' + str(solar_gen_date) +'''</p>
+      </div>
    <div 
       <p style='text-align:center;  font-size: 15px; color: green'>RE Capasity</p>
       <p style='text-align: center; font-size: 15px; color: green'></p>
