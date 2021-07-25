@@ -13,7 +13,7 @@ headers = { "Authorization" : "Basic bmF2ZWVua3VtYXJjXzE0Ok5hdmVlbkA2Ng==",
 		"Content-Type" : "application/json",
 	  	"Accept" : "application/json" }
 post_body = {
-	"StateCode" : state_code
+	"StateCode" : 1
 }
 res = rq.post(url=url,data = post_body , headers = headers)
 res
