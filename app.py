@@ -19,9 +19,4 @@ post_body = {
 	"StateCode" : 1
 }
 res = rq.get(url, auth = ("naveenkumarc_14", "Naveen@66"))
-res
-
-url
-headers
-post_body
-#print(res.text)
+res.json()
