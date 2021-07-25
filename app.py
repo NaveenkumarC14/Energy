@@ -44,7 +44,7 @@ st.markdown('''
 		
                         <div 
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: red'>''' + str(CO2_Date) +'''</p> </div> 
-                    </div>
+                    
                 </div>
             </div>
         </div>
