@@ -8,7 +8,7 @@ state_code=state['StateCode'].iloc[0]
 #str(state_code)
 
 import requests as rq
-url = "https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy"
+url = "https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy?st=1"
 headers = { 
 		"Content-Type" : "application/json",
 	  	"Accept" : "application/json" 
@@ -16,7 +16,7 @@ headers = {
 post_body = {
 	"StateCode" : 1
 }
-res = rq.post(url=url,data = post_body , headers = headers, auth = ("naveenkumarc_14", "Naveen@66"))
+res = rq.get(url=url,data = post_body , headers = headers, auth = ("naveenkumarc_14", "Naveen@66"))
 res
 
 url
