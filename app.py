@@ -20,11 +20,9 @@ post_body = {
 	"StateCode" : 1
 }
 res = rq.get(url, auth = ("naveenkumarc_14", "Naveen@66"))
-res.text
-#json.literal_eval(res.text)
-
-jsonData = st.json(res.text)
-
 stateName = str(res.json()["StateName"]) + ""
+CO2 = str(res.json()["CO2"]) + ""
+
 
 stateName
+CO2
