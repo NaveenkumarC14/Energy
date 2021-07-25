@@ -25,3 +25,4 @@ res.text
 
 jsonData = st.json(res.text)
 
+res.json()
