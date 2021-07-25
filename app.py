@@ -35,11 +35,10 @@ st.markdown('''
 
 <div class="jumbotron text-center" style='padding: 0px';background-color:#fff>
  <div class="row" style="background-color:#fff;width:100%;margin:auto;">
-    <div class="row-sm-4">
+    
       <p style='text-align:center; font-weight: 400 ; color: black'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: red'></p>
       <p style='text-align: center; font-size: 40px; font-weight: 600; color: red'>''' + str(CO2) + '''</p>
-    </div>    
     
   </div>
 </div>
