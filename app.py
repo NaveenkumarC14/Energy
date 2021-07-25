@@ -4,4 +4,4 @@ df=pd.read_csv('States_RE.csv')
 
 state=st.sidebar.selectbox('Select a state',df['StateName'].unique())
 a=df[df['StateName']==state]
-a.loc[0]
+a['StateCode'].iloc[0]
