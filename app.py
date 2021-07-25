@@ -16,4 +16,4 @@ post_body = {
 }
 res = rq.post(url=url,data = post_body , headers = headers)
 
-res.json()
+print(res.json())
