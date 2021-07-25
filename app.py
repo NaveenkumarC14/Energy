@@ -39,9 +39,8 @@ st.markdown('''
       <p style='text-align:center; font-weight: 400 ; color: black'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: red'></p>
       <p style='text-align: center; font-size: 40px; font-weight: 600; color: red'>''' + str(CO2) +'''</p>
-      <p style='text-align:center; font-weight: 400 ; color: black'>''' + str(CO2_Date) +'''</p>
-     </div>
-     
+      <p style='text-align: center; font-size: 40px; font-weight: 600; color: red'>''' + tr(CO2_Date) +'''</p>
+
   </div>
 </div>
 
