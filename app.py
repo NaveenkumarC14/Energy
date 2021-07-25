@@ -39,7 +39,7 @@ st.markdown('''
       <div class="row-sm-4">
       <p style='text-align:center;  font-size: 15px; color: green'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: green'></p>
-     <p style='text-align: center; font-size: 15px; color: green'>''' + str(CO2) +'''</p>
+     <p style='text-align: center ; font-size: 42px; font-weight: bold; color: blue'>''' + str(CO2) +'''</p>
       <p style='text-align: center; font-size: 15px; color: green'>''' + str(CO2_Date) +'''</p>
       </div>
  <div 
