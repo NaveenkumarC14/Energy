@@ -6,4 +6,3 @@ streamlit==0.62.1
 numpy
 requests
 anyjson==0.3
-ujson
