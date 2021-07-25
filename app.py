@@ -40,6 +40,7 @@ st.markdown('''
      
     </div>    
     <div class="row-sm-3" style='background-color: #fff; border-radius: 5px'>
+    <div class="row-sm-3">
       <p style='text-align:center; font-weight: 400 ; color: black'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: black'></p>
       <p style='text-align: center; font-size: 40px; font-weight: 600; color: black'>''' + str(solar_gen) + '''</p>
