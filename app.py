@@ -3,4 +3,5 @@ import streamlit as st
 df=pd.read_csv('States_RE.csv')
 
 state=st.sidebar.selectbox('Select a state',df['StateName'].unique())
-df[df['StateName']==state]
+a=df[df['StateName']==state]
+a.iloc[0]
