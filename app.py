@@ -33,17 +33,27 @@ re_capacity_date = str(res.json()["re_capacity_date"]) + ""
 st.markdown('''
 <div class="jumbotron text-center" style='padding: 0px';background-color:#fff>
  <div class="row" style="background-color:#fff;width:100%;margin:auto;">
-    <div class="row-sm-3">
+    <div class="row-sm-4">
       <p style='text-align:center; font-weight: 400 ; color: black'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: red'></p>
       <p style='text-align: center; font-size: 40px; font-weight: 600; color: red'>''' + str(CO2) + '''</p>
     </div>    
-    <div class="row-sm-3">
+    <div class="row-sm-4" style='background-color: #fff; border-radius: 5px'>
       <p style='text-align:center; font-weight: 400 ; color: black'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: black'></p>
       <p style='text-align: center; font-size: 40px; font-weight: 600; color: black'>''' + str(solar_gen) + '''</p>
     </div>     
-   
+    <div class="row-sm-4">   
+      <p style='text-align: center; background-color: #fff; font-weight: 400 ;color: green'>Wind</p>
+      <p style='text-align: center; font-size: 15px; color: green'></p>
+      <p style='text-align: center ; font-size: 40px; font-weight: 600; color: green'>''' + str(wind_gen) + '''</p>  
+     </div>     
+    <div class="row-sm-4">   
+      <p style='text-align: center; background-color: #fff; font-weight: 400 ;color: blue'>RE Capacity</p>
+      <p style='text-align: center; font-size: 15px; color: green'></p>
+      <p style='text-align: center ; font-size: 40px; font-weight: 600; color: blue'>''' + str(re_capacity) + '''</p>    
+    </div> 
   </div>
 </div>
+
  ''', unsafe_allow_html=True);
