@@ -17,4 +17,8 @@ post_body = {
 }
 res = rq.post(url=url,data = post_body , headers = headers)
 res
+
+url
+headers
+post_body
 #print(res.text)
