@@ -5,7 +5,7 @@ df=pd.read_csv('States_RE.csv')
 state=st.sidebar.selectbox('Select a state',df['StateName'].unique())
 state=df[df['StateName']==state]
 state_code=state['StateCode'].iloc[0]
-str(state_code)
+#str(state_code)
 
 import requests as rq
 url = "https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy"
@@ -17,4 +17,4 @@ post_body = {
 }
 res = rq.post(url=url,data = post_body , headers = headers)
 
-print(res.text())
+print(res.text)
