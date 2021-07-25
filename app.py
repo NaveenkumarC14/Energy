@@ -32,7 +32,6 @@ re_capacity_date = str(res.json()["re_capacity_date"]) + ""
 
 st.markdown('''
 
-<h1></h1>
 <div class="jumbotron text-center" style='padding: 0px';background-color:#fff>
  <div class="row" style="background-color:#fff;width:100%;margin:auto;">
 <div 
