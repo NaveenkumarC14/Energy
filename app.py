@@ -49,10 +49,12 @@ st.markdown('''
      <p style='text-align: center ; font-size: 42px; font-weight: bold; color: green'>''' + str(solar_gen) +'''</p>
       </div>
       </div>
-   <div 
+   <div
+   <div class="row-sm-4"> 
       <p style='text-align:center;  font-size: 15px; color: green'>RE Capasity</p>
       <p style='text-align: center; font-size: 15px; color: green'></p>
      <p style='text-align: center ; font-size: 42px; font-weight: bold; color: red'>''' + str(re_capacity) +'''</p>
+     </div>
      </div>
  
 
