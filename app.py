@@ -30,11 +30,36 @@ re_capacity = str(res.json()["re_capacity"]) + "MW"
 re_capacity_date = str(res.json()["re_capacity_date"]) + ""
 
 
-stateName 
-CO2 
-CO2_Date  
-solar_gen 
-solar_gen_date 
-wind_gen 
-re_capacity 
-re_capacity_date
+st.markdown('''
+<div class="jumbotron text-center" style='padding: 0px';background-color:#fff>
+ <div class="row" style="background-color:#fff;width:100%;margin:auto;">
+    <div class="row-sm-3">
+      
+      <p style='text-align: center; font-size: 15px; color: red'></p>
+      <p style='text-align: center; font-size: 40px; font-weight: 600; color: red'>''' + str(CO2) + '''</p>
+      <p style ='text-align: center; background-color: #fff; font-weight: 400 ;color: red'>''' + CO2_Date'''</p>
+    </div>    
+    <div class="row-sm-3" style='background-color: #fff; border-radius: 5px'>
+      
+      <p style='text-align: center; font-size: 15px; color: black'></p>
+      <p style='text-align: center; font-size: 40px; font-weight: 600; color: black'>''' + str(solar_gen)+ '''</p>
+      <p style='text-align:center; font-weight: 400 ; color: black'>Solar Generation</p
+      <p style='text-align:center; font-weight: 400 ; color: black'>''' + solar_gen_date'''</p>
+    </div>    
+    <div class="row-sm-3">    
+      
+      <p style='text-align: center; font-size: 15px; color: green'></p>
+      <p style='text-align: center ; font-size: 40px; font-weight: 600; color: green'>''' + str(wind_gen) + '''</p>  
+      <p style='text-align: center; background-color: #fff; font-weight: 400 ;color: green'>Wind Generation</p>
+      <p style='text-align:center; font-weight: 400 ; color: black'>''' + solar_gen_date'''</p>
+     </div>     
+    <div class="row-sm-3">    
+      
+      <p style='text-align: center; font-size: 15px; color: green'></p>
+      <p style='text-align: center ; font-size: 40px; font-weight: 600; color: blue'>''' + str(re_capacity) + '''</p>    
+      <p style='text-align: center; background-color: #fff; font-weight: 400 ;color: blue'>Installed RE Capacity</p>
+      <p style='text-align:center; font-weight: 400 ; color: black'>''' + solar_gen_date'''</p>
+    </div> 
+  </div>
+</div>
+ ''', unsafe_allow_html=True);
