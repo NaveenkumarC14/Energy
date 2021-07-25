@@ -9,7 +9,7 @@ state_code=state['StateCode'].iloc[0]
 
 import requests as rq
 url = "https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy?st=1"
-r=rq.get("https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy?st=1")
+r=rq.get("https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy?st=1",auth = ("naveenkumarc_14", "Naveen@66")
 r.status_code
 headers = { 
 		"Content-Type" : "application/json",
