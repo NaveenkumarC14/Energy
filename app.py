@@ -32,16 +32,16 @@ re_capacity_date = str(res.json()["re_capacity_date"]) + ""
 
 st.markdown('''
 
-
+<h1></h1>
 <div class="jumbotron text-center" style='padding: 0px';background-color:#fff>
  <div class="row" style="background-color:#fff;width:100%;margin:auto;">
 <div 
-      <h1></h1>
+      <div class="row-sm-4">
       <p style='text-align:center;  font-size: 15px; color: green'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: green'></p>
      <p style='text-align: center; font-size: 15px; color: green'>''' + str(CO2) +'''</p>
       <p style='text-align: center; font-size: 15px; color: green'>''' + str(CO2_Date) +'''</p>
-      
+      </div>
  <div 
       <p style='text-align:center;  font-size: 15px; color: green'>Solar</p>
       <p style='text-align: center; font-size: 15px; color: green'></p>
