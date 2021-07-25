@@ -30,4 +30,4 @@ re_capacity = str(res.json()["re_capacity"]) + "MW"
 re_capacity_date = str(res.json()["re_capacity_date"]) + ""
 
 
-col1,col2 = st.beta_colimns([3,1])
+col1,col2 = st.beta_columns([3,1])
