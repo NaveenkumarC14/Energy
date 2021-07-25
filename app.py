@@ -25,4 +25,4 @@ res.text
 
 jsonData = st.json(res.text)
 
-"ss " + str(res.json()["StateName"])
+"" + str(res.json()["StateName"])
