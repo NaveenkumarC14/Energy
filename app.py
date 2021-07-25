@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 df=pd.read_csv('States_RE.csv')
 
-state=st.sidebar.selectbox('Select a state',df['State'].unique())
+state=st.selectbox('Select a state',df['State'].unique())
 state=df[df['State']==state]
 state_code=state['StateCode'].iloc[0]
 #str(state_code)
