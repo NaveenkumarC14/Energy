@@ -21,7 +21,7 @@ post_body = {
 }
 res = rq.get(url, auth = ("naveenkumarc_14", "Naveen@66"))
 stateName = str(res.json()["StateName"]) + ""
-CO2 = str(res.json()["CO2"]) + " tCO2"
+CO2 = str(res.json()["CO2"]) + ""
 CO2_Date  = str(res.json()["CO2_Date"]) + ""
 solar_gen = str(res.json()["solar_gen"]) + "MU"
 solar_gen_date = str(res.json()["solar_gen_date"]) + ""
@@ -37,7 +37,8 @@ st.markdown('''
             <div class="card-body" style="height:150px;background-color: #d1f0a2">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
-                        <div class="card-heading-1">'''+CO2+''' <span class="card-title-1">tCO<sub>2</sub></span> </div>
+                        
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color: red'>''' + str(Total_Confirmed) + '''</p>
                         <div class="card-title-1">CO<sub>2</sub> emissions mitigated</div>                        
                         <div class="card-date-1">''' + CO2_Date +''' </div>
                     </div>
