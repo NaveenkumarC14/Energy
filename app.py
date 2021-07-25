@@ -18,7 +18,7 @@ headers = {
 post_body = {
 	"StateCode" : 1
 }
-res = rq.get(url,data = post_body , headers = headers, auth = ("naveenkumarc_14", "Naveen@66"))
+res = rq.get(url, auth = ("naveenkumarc_14", "Naveen@66"))
 res
 
 url
