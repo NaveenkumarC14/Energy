@@ -16,5 +16,5 @@ post_body = {
 	"StateCode" : state_code
 }
 res = rq.post(url=url,data = post_body , headers = headers)
-
-print(res.text)
+res
+#print(res.text)
