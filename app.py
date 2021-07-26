@@ -12,15 +12,7 @@ st.markdown('''
  
 </div>
 ''', unsafe_allow_html=True);
-st.markdown('''
-<div class="jumbotron text-center" style='background-color: #fff'>
-  <h1 style="margin: auto; width: 100%;">COVID-19 Interactive Dashboard</h1>
-  <h2></h2><p style="margin: auto; font-weight: bold; text-align: center; width: 100%;">It shows Coronavirus Cases and Forecasting in India</p>
-  <h3></h3>
-  <p style="margin: auto; font-weight: bold; text-align: center; width: 100%;">(Best Viewed on Desktop.Use Landscape or Desktop mode for Mobile View)</p>
-  
-</div>
-''', unsafe_allow_html=True);
+
 state=st.selectbox('Select a state',df['State'].unique())
 state=df[df['State']==state]
 state_code=state['StateCode'].iloc[0]
@@ -65,8 +57,7 @@ st.markdown('''
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>''' + str(CO2_Date) + '''</p>
 			</div>
 			<div 
-			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: white'>....</p>
-			</div>  
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: white'>....</p></div>  
                     </div>
                 </div>
             </div>
