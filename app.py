@@ -62,11 +62,11 @@ st.markdown('''
 <div
 			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(CO2) +  '''</p></div>
                         <div 
-			<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>CO2 emissions mitigated</p> </div>  
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>CO2 emissions mitigated</p> </div>  
                         <div 
-			<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>''' + str(CO2_Date) + '''</p></div> 
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>''' + str(CO2_Date) + '''</p></div> 
                     <div 
-			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'></p>
 			</div>  
 		    </div>
                 </div>
