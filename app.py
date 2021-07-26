@@ -54,8 +54,10 @@ st.markdown('''
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>emissions mitigated</p> </div>  
                         <div 
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>''' + str(CO2_Date) + '''</p>
-			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
-			</div> 
+			</div>
+			<div 
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p></div> 
+			 
                     </div>
                 </div>
             </div>
