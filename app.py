@@ -245,10 +245,10 @@ if select=='India':
 		</div>
 	    </div>
 	''', unsafe_allow_html=True);
-       daily_gen1=pd.melt(daily_gen,id_vars = ['Date'])	
+       daily_gen1=pd.melt(daily_gen,id_vars = 'Date',var_name="Source",value_name="Value")	
 
-       fig = px.line(daily_gen1, x="Date", y="value", color="variable",
-              line_group="variable", hover_name="variable")
+       fig = px.line(daily_gen1, x="Date", y="Value", color="Source",
+              line_group="Source", hover_name="Source")
 	st.plotly_chart(fig)
 
 
