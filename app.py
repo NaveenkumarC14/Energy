@@ -69,7 +69,7 @@ st.markdown('''
 
 <div class="col-md-3">
         <div class="card-style-3">
-            <div class="card-body" style="height:150px;background-color: #d1f0a2">
+            <div class="card-body" style="height:150px;background-color: white">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
 <div
@@ -115,7 +115,7 @@ st.markdown('''
 
 <div class="col-md-3">
         <div class="card-style-3">
-            <div class="card-body" style="height:150px;background-color: #d1f0a2">
+            <div class="card-body" style="height:150px;background-color:white">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
 <div
