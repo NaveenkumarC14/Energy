@@ -83,7 +83,7 @@ st.markdown('''
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
 <div
-			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(solar_gen) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(solar_gen) +  '''</p></div>
                         <div 
 			<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>Solar Generation</p> </div>  
                         <div 
@@ -106,7 +106,7 @@ st.markdown('''
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
 <div
-			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(wind_gen) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(wind_gen) +  '''</p></div>
                         <div 
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Wind Generation</p> </div>  
                         <div 
@@ -129,7 +129,7 @@ st.markdown('''
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
 <div
-			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(re_capacity) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(re_capacity) +  '''</p></div>
                         <div 
 			<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>Installed RE Capacity</p> </div>  
                         <div 
