@@ -149,11 +149,102 @@ if select=='State':
 	    </div>
 	''', unsafe_allow_html=True);
 
+if select=='India':
+	
 	st.markdown('''
-	<div class="jumbotron text-center" style='background-color: #fff'>
-	  <h1 style="margin: auto; width: 100%;">Renewables India Dashboard</h1>
-	  <h2></h2>
 
-	</div>
+	<div class="col-md-3">
+		<div class="card-style-3">
+		    <div class="card-body" style="height:150px;background-color: #d1f0a2">
+			<div class="row">
+			    <div class="col-xs-12 col-sm-12">
+	<div
+				<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>"487625 <span class="card-title-1">tCO<sub>2</sub></span></p></div>
+				<div 
+				<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>CO2 emissions mitigated</p> </div>  
+				<div 
+				<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>''' + str(CO2_Date) + '''</p></div> 
+			    <div 
+				<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'></p>
+				</div>  
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
 	''', unsafe_allow_html=True);
+
+	st.markdown('''
+
+	<div class="col-md-3">
+		<div class="card-style-3">
+		    <div class="card-body" style="height:150px;background-color: white">
+			<div class="row">
+			    <div class="col-xs-12 col-sm-12">
+	<div
+				<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(daily_gen['Solar (MU)'].iloc[-1]) +  '''</p></div>
+				<div 
+				<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>Solar Generation</p> </div>  
+				<div 
+				<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>''' + str(solar_gen_date) + '''</p></div> 
+			    <div 
+				<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+				</div>  
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	''', unsafe_allow_html=True);
+
+	st.markdown('''
+
+	<div class="col-md-3">
+		<div class="card-style-3">
+		    <div class="card-body" style="height:150px;background-color: #d1f0a2">
+			<div class="row">
+			    <div class="col-xs-12 col-sm-12">
+	<div
+				<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(daily_gen['Wind (MU)'].iloc[-1]) +  '''</p></div>
+				<div 
+				<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Wind Generation</p> </div>  
+				<div 
+				<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>''' + str(solar_gen_date) + '''</p></div> 
+			    <div 
+				<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+				</div>  
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	''', unsafe_allow_html=True);
+
+	st.markdown('''
+
+	<div class="col-md-3">
+		<div class="card-style-3">
+		    <div class="card-body" style="height:150px;background-color:white">
+			<div class="row">
+			    <div class="col-xs-12 col-sm-12">
+	<div
+				<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(install_capa['All (MW)'].iloc[-1]) +  '''</p></div>
+				<div 
+				<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>Installed RE Capacity</p> </div>  
+				<div 
+				<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>''' + str(re_capacity_date) + '''</p></div> 
+			    <div 
+				<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+				</div>  
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	''', unsafe_allow_html=True);
+	
+
+
+
+
 
