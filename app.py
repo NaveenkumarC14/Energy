@@ -150,13 +150,6 @@ if select=='State':
 	''', unsafe_allow_html=True);
 
 if select=='India':
-	state=st.selectbox('Select a state',df['State'].unique())
-	state=df[df['State']==state]
-	state_code=state['StateCode'].iloc[0]
-#str(state_code)
-
-   
-			   
 	import requests as rq
 	#import ujson as json
 	url = "https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy?st=" +str(state_code)
@@ -178,6 +171,7 @@ if select=='India':
 	wind_gen = str(res.json()["wind_gen"]) + "MU"
 	re_capacity = str(res.json()["re_capacity"]) + "MW"
 	re_capacity_date = str(res.json()["re_capacity_date"]) + ""
+
 	
 	st.markdown('''
 
