@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 df=pd.read_csv('States_RE.csv')
 
-daily_gen=pd.read_excel('India's DailyGeneration.csv')
+daily_gen=pd.read_excel("India's DailyGeneration.csv")
 install_capa=pd.read_excel("India's InstalledCapacity.csv")
 month_gen=pd.read_excel("India's MonthlyGeneration.csv")
 daily_gen
