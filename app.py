@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 df=pd.read_csv('States_RE.csv')
 
-daily_gen=pd.read_csv("India's DailyGeneration.csv")
+daily_gen=pd.read_csv("India's DailyGeneration (15 June, 2005 to 24 July, 2021).csv")
 install_capa=pd.read_csv("India's InstalledCapacity.csv")
 month_gen=pd.read_csv("India's MonthlyGeneration.csv")
 		
