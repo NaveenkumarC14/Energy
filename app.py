@@ -56,8 +56,8 @@ st.markdown('''
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>''' + str(CO2_Date) + '''</p>
 			</div>
 			<div 
-			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p></div> 
-			 
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+			</div>  
                     </div>
                 </div>
             </div>
@@ -78,7 +78,10 @@ st.markdown('''
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Solar Generation</p> </div>  
                         <div 
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>''' + str(solar_gen_date) + '''</p></div> 
-                    </div>
+                    <div 
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+			</div>  
+		    </div>
                 </div>
             </div>
         </div>
@@ -98,7 +101,10 @@ st.markdown('''
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Wind Generation</p> </div>  
                         <div 
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>''' + str(solar_gen_date) + '''</p></div> 
-                    </div>
+                    <div 
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+			</div>  
+		    </div>
                 </div>
             </div>
         </div>
@@ -118,7 +124,10 @@ st.markdown('''
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Installed RE Capacity</p> </div>  
                         <div 
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>''' + str(re_capacity_date) + '''</p></div> 
-                    </div>
+                    <div 
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+			</div>  
+		    </div>
                 </div>
             </div>
         </div>
