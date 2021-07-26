@@ -248,7 +248,7 @@ if select=='India':
 	
 daily_gen2=pd.melt(daily_gen,id_vars = 'Date', var_name="Source", value_name="Value")	
 daily_gen2["Date"]=pd.to_datetime(daily_gen2.Date)
-fig = px.line(daily_gen2, x="Date", y="Value", color="Source")
+fig = px.line(daily_gen2, x="Date", y="Value", color="Source",line_group="Source")
 st.plotly_chart(fig)
 
 
