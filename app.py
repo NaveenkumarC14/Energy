@@ -178,4 +178,14 @@ if state1=='All':
         
 	fig =px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group', width=1000, height=500)
 	st.plotly_chart(fig)
-
+       
+	ut=pd.read_csv("India's Capacity Utilisation.csv")
+	st.markdown('''
+		<div class="jumbotron text-center" style='background-color: #fff'>
+		  <h1 style="margin: auto; width: 100%;">Install Capacity</h1>
+		</div>
+		 ''', unsafe_allow_html=True);
+	install_capa1=pd.melt(ut,id_vars = 'Month', var_name="Source", value_name="Value")	
+        
+	fig =px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group', width=1000, height=500)
+	st.plotly_chart(fig)
