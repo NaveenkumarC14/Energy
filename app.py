@@ -24,8 +24,10 @@ data_url = base64.b64encode(contents).decode("utf-8")
 image.close()
 
 st.markdown(
-    f'<img src="data:image/gif;base64,{data_url}" alt="corona gif">',
+    f'<img src="data:image/gif;base64,{data_url}" alt="corona gif">
+	<h1></h1>',
     unsafe_allow_html=True,
+	
 )
 					     
 state1=st.selectbox('Select a state',df['State'].unique())
