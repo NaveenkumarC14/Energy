@@ -10,7 +10,7 @@ month_gen=pd.read_csv("India's MonthlyGeneration.csv")
 		
 st.markdown('''
 <div class="jumbotron text-center" style='background-color: #fff'>
-  <h1 style="margin: auto; width: 100%;text-align: center;">Renewables India Dashboard</h1>
+  <h1 style="margin: auto; width: 100%;text-align: center;">Renewable Energy India Dashboard</h1>
   <h2></h2><p style="margin: auto; font-weight: bold; text-align: center; width: 100%;">Renewable Energy Live Update in India</p>
   <h3></h3>
  
