@@ -7,6 +7,17 @@ state=df[df['State']==state]
 state_code=state['StateCode'].iloc[0]
 #str(state_code)
 
+
+st.markdown('''
+<div class="jumbotron text-center" style='background-color: #fff'>
+  <h1 style="margin: auto; width: 100%;">Renewables India Dashboard</h1>
+  <h2></h2><p style="margin: auto; font-weight: bold; text-align: center; width: 100%;">It shows Renewables Energy Live Update in India</p>
+  <h3></h3>
+ 
+</div>
+''', unsafe_allow_html=True);
+
+
 import requests as rq
 #import ujson as json
 url = "https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy?st=" +str(state_code)
@@ -38,11 +49,71 @@ st.markdown('''
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
 <div
-			<p style='text-align: center; font-size: 40px; font-weight: 600; color: red'>''' + str(CO2) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color: blue'>''' + str(CO2) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
                         <div 
-			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: red'>emissions mitigated</p> </div>  
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>emissions mitigated</p> </div>  
                         <div 
-			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: red'>''' + str(CO2_Date) + '''</p></div> 
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>''' + str(CO2_Date) + '''</p></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+''', unsafe_allow_html=True);
+
+st.markdown('''
+
+<div class="col-md-3">
+        <div class="card-style-3">
+            <div class="card-body" style="height:150px;background-color: #d1f0a2">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+<div
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(solar_gen) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
+                        <div 
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Solar Generation</p> </div>  
+                        <div 
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>''' + str(solar_gen_date) + '''</p></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+''', unsafe_allow_html=True);
+
+st.markdown('''
+
+<div class="col-md-3">
+        <div class="card-style-3">
+            <div class="card-body" style="height:150px;background-color: #d1f0a2">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+<div
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(wind_gen) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
+                        <div 
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Wind Generation</p> </div>  
+                        <div 
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>''' + str(solar_gen_date) + '''</p></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+''', unsafe_allow_html=True);
+
+st.markdown('''
+
+<div class="col-md-3">
+        <div class="card-style-3">
+            <div class="card-body" style="height:150px;background-color: #d1f0a2">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+<div
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(re_capacity) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
+                        <div 
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Installed RE Capacity</p> </div>  
+                        <div 
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>''' + str(re_capacity_date) + '''</p></div> 
                     </div>
                 </div>
             </div>
