@@ -16,8 +16,8 @@ st.markdown('''
 </div>
 ''', unsafe_allow_html=True);
 					     
-state=st.selectbox('Select a state',df['State'].unique())
-state=df[df['State']==state]
+state1=st.selectbox('Select a state',df['State'].unique())
+state=df[df['State']==state1]
 state_code=state['StateCode'].iloc[0]
 #str(state_code)
 			   
@@ -147,7 +147,7 @@ st.markdown('''
 	''', unsafe_allow_html=True);
 
 
-if state=='India':
+if state1=='India':
 	
 	st.markdown('''
 		<div class="jumbotron text-center" style='background-color: #fff'>
