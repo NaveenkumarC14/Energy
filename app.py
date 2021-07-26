@@ -226,7 +226,7 @@ if select=='India':
 			<div class="row">
 			    <div class="col-xs-12 col-sm-12">
 	<div
-				<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(daily_gen['Wind (MU)'].iloc[-1]) +  '''</p></div>
+				<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(daily_gen['Wind (MU)'].iloc[-1]) +  ''' MU</p></div>
 				<div 
 				<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Wind Generation</p> </div>   
 			    <div 
@@ -247,7 +247,7 @@ if select=='India':
 			<div class="row">
 			    <div class="col-xs-12 col-sm-12">
 	<div
-				<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(install_capa['All (MW)'].iloc[-1]) +  '''</p></div>
+				<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(install_capa['All (MW)'].iloc[-1]) +  ''' mw</p></div>
 				<div 
 				<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>Installed RE Capacity</p> </div>   
 			    <div 
