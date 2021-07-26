@@ -2,8 +2,9 @@ import pandas as pd
 import streamlit as st
 df=pd.read_csv('States_RE.csv')
 
-
-
+daily_gen=pd.read_excel("https://docs.google.com/spreadsheets/d/10IYut8PflGBy18EJSQZshsjjvK27l0pD1IqltAwVwSE/edit?usp=sharing")
+install_capa=pd.read_excel("https://docs.google.com/spreadsheets/d/1Z2Wtd3FYxfyeqn0pqUrgd7HDDWOyLnEcR1QnycUoHIM/edit?usp=sharing"
+month_gen=pd.read_excel("https://docs.google.com/spreadsheets/d/1aZFiFji_xGjgZa1YfzUwvWgMfwL9_1fdR2U2QvyripA/edit?usp=sharing")
 st.markdown('''
 <div class="jumbotron text-center" style='background-color: #fff'>
   <h1 style="margin: auto; width: 100%;">Renewables India Dashboard</h1>
@@ -18,7 +19,15 @@ state=df[df['State']==state]
 state_code=state['StateCode'].iloc[0]
 #str(state_code)
 
+uploaded_file = st.file_uploader("Choose a XLSX file", type="xlsx")
 
+if uploaded_file:
+    df = pd.read_excel(uploaded_file)
+
+    st.dataframe(df)
+    st.table(df)
+			   
+			   
 import requests as rq
 #import ujson as json
 url = "https://naveenkumarc_14.fred.sensetecnic.com/api/GetStateEnergy?st=" +str(state_code)
