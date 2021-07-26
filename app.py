@@ -16,7 +16,7 @@ st.markdown('''
  
 </div>
 ''', unsafe_allow_html=True);
-image= open("download.gif",'rb')
+image= open("turbine.gif",'rb')
 contents = image.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 image.close()
