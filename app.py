@@ -189,3 +189,5 @@ if state1=='All':
         
 	fig = px.pie(install_capa1,values='Value',names='Source')
 	st.plotly_chart(fig)
+	px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group', width=1000, height=500)
+	st.plotly_chart(fig)
