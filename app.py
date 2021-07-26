@@ -176,6 +176,6 @@ if state1=='All':
 		 ''', unsafe_allow_html=True);
 	install_capa1=pd.melt(install_capa,id_vars = 'Month', var_name="Source", value_name="Value")	
         
-	fig =px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group')
+	fig =px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group', width=1000, height=500)
 	st.plotly_chart(fig)
 
