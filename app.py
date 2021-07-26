@@ -151,7 +151,7 @@ if state1=='All':
 	
 	st.markdown('''
 		<div class="jumbotron text-center" style='background-color: #fff'>
-		  <h1 style="margin: auto; width: 100%;">RE Generation (Tentative)</h1>
+		  <h1 style="margin: auto; width: 100%;">RE Generation (Tentative) (MU)</h1>
 		</div>
 		 ''', unsafe_allow_html=True);
 	daily_gen2=pd.melt(daily_gen,id_vars = 'Date', var_name="Source", value_name="Value")	
@@ -161,7 +161,7 @@ if state1=='All':
 
 	st.markdown('''
 		<div class="jumbotron text-center" style='background-color: #fff'>
-		  <h1 style="margin: auto; width: 100%;">RE Generation</h1>
+		  <h1 style="margin: auto; width: 100%;">RE Generation (MU)</h1>
 		</div>
 		 ''', unsafe_allow_html=True);
 	daily_gen3=pd.melt(month_gen,id_vars = 'Month', var_name="Source", value_name="Value")	
@@ -171,7 +171,7 @@ if state1=='All':
 
 	st.markdown('''
 		<div class="jumbotron text-center" style='background-color: #fff'>
-		  <h1 style="margin: auto; width: 100%;">Install Capacity</h1>
+		  <h1 style="margin: auto; width: 100%;">Install Capacity (MW)</h1>
 		</div>
 		 ''', unsafe_allow_html=True);
 	install_capa1=pd.melt(install_capa,id_vars = 'Month', var_name="Source", value_name="Value")	
