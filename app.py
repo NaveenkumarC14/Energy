@@ -60,6 +60,7 @@ st.markdown('''
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
 <div
+                        <h1></h1>
 			<p style='text-align: center; font-size: 40px; font-weight: 600; color: blue'>''' + str(CO2) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
                         <div 
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>emissions mitigated</p> </div>  
@@ -67,7 +68,8 @@ st.markdown('''
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>''' + str(CO2_Date) + '''</p>
 			</div>
 			<div 
-			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: white'>....</p></div>  
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: white'>....</p></div> 
+			<h2></h2>
                     </div>
                 </div>
             </div>
