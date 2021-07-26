@@ -166,8 +166,16 @@ if state1=='All':
 		 ''', unsafe_allow_html=True);
 	daily_gen3=pd.melt(month_gen,id_vars = 'Month', var_name="Source", value_name="Value")	
 
-	fig = px.line(daily_gen3, x="Month", y="Value", color="Source",line_group="Source", hover_name="Source", width=1000, height=500)
+	fig = px.line(daily_gen3, x="Month", y="Value", color="Source",line_group="Source", hover_name="Date", width=1000, height=500)
 	st.plotly_chart(fig)
 
+	st.markdown('''
+		<div class="jumbotron text-center" style='background-color: #fff'>
+		  <h1 style="margin: auto; width: 100%;">Install Capacity</h1>
+		</div>
+		 ''', unsafe_allow_html=True);
+	install_capa1=pd.melt(install_capa,id_vars = 'Month', var_name="Source", value_name="Value")	
 
+	fig = px.line(install_capa1, x="Month", y="Value", color="Source",line_group="Source", hover_name="Month", width=1000, height=500)
+	st.plotly_chart(fig)
 
