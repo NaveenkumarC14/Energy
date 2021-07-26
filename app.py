@@ -56,18 +56,19 @@ st.markdown('''
 
 <div class="col-md-3">
         <div class="card-style-3">
-            <div class="card-body" style="height:150px;background-color: #d1f0a2">
+            <div class="card-body" style="height:150px;background-color: white">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
 <div
-                        
-			<p style='text-align: center; font-size: 40px; font-weight: 600; color: blue'>''' + str(CO2) +  '''<span class="card-title-1"> tCO<sub>2</sub></span></p></div>
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(CO2) +  '''</p></div>
                         <div 
-			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>emissions mitigated</p> </div>  
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>Solar Generation</p> </div>  
                         <div 
-			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>''' + str(CO2_Date) + '''</p>
-			</div>
-                    </div>
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>''' + str(CO2_Date) + '''</p></div> 
+                    <div 
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+			</div>  
+		    </div>
                 </div>
             </div>
         </div>
