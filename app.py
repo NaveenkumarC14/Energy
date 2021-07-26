@@ -147,16 +147,17 @@ st.markdown('''
 	''', unsafe_allow_html=True);
 
 
+if state=='India':
 	
-st.markdown('''
+	st.markdown('''
 <div class="jumbotron text-center" style='background-color: #fff'>
   <h1 style="margin: auto; width: 100%;">RE Generation (Tentative)</h1>
 </div>
  ''', unsafe_allow_html=True);
-daily_gen2=pd.melt(daily_gen,id_vars = 'Date', var_name="Source", value_name="Value")	
+	daily_gen2=pd.melt(daily_gen,id_vars = 'Date', var_name="Source", value_name="Value")	
 
-fig = px.line(daily_gen2, x="Date", y="Value", color="Source",line_group="Source", hover_name="Source", width=1000, height=500)
-st.plotly_chart(fig)
+	fig = px.line(daily_gen2, x="Date", y="Value", color="Source",line_group="Source", hover_name="Source", width=1000, height=500)
+	st.plotly_chart(fig)
 
 
 
