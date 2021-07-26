@@ -14,7 +14,7 @@ st.markdown('''
  
 </div>
 ''', unsafe_allow_html=True);
-select=st.sidebar.selectbox('Select a Type',('Overall','State))
+select=st.sidebar.selectbox('Select a Type',('Overall','State'))
 if select=='Overall':
 					     
 	state=st.selectbox('Select a state',df['State'].unique())
