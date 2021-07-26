@@ -5,8 +5,7 @@ df=pd.read_csv('States_RE.csv')
 daily_gen=pd.read_csv("India's DailyGeneration.csv")
 install_capa=pd.read_csv("India's InstalledCapacity.csv")
 month_gen=pd.read_csv("India's MonthlyGeneration.csv")
-daily_gen
-install_capa			
+		
 st.markdown('''
 <div class="jumbotron text-center" style='background-color: #fff'>
   <h1 style="margin: auto; width: 100%;">Renewables India Dashboard</h1>
