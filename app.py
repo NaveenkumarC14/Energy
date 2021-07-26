@@ -69,7 +69,6 @@ st.markdown('''
 			</div>
 			<div 
 			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: white'>....</p></div> 
-			</div> 
                     </div>
                 </div>
             </div>
