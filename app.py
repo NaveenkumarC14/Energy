@@ -187,7 +187,8 @@ if state1=='All':
 		 ''', unsafe_allow_html=True);
 	install_capa1=pd.melt(ut,id_vars = 'Month', var_name="Source", value_name="Value")	
         
-	fig = px.pie(install_capa1,values='Value',names='Source')
-	st.plotly_chart(fig)
+	
 	fig=px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group', width=1000, height=500)
+	st.plotly_chart(fig)
+	fig = px.pie(install_capa1,values='Value',names='Source')
 	st.plotly_chart(fig)
