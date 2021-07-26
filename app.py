@@ -245,6 +245,7 @@ if select=='India':
 		</div>
 	    </div>
 	''', unsafe_allow_html=True);
+	
        daily_gen1=pd.melt(daily_gen,id_vars = 'Date',var_name="Source",value_name="Value")	
 
        fig = px.line(daily_gen1, x="Date", y="Value", color="Source",
