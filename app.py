@@ -21,14 +21,7 @@ state=df[df['State']==state]
 state_code=state['StateCode'].iloc[0]
 #str(state_code)
 
-uploaded_file = st.file_uploader("Choose a XLSX file", type="xlsx")
-
-if uploaded_file:
-    df = pd.read_excel(uploaded_file)
-
-    st.dataframe(df)
-    st.table(df)
-			   
+   
 			   
 import requests as rq
 #import ujson as json
