@@ -209,7 +209,7 @@ if state1=='All':
 	install_capa1=pd.melt(ut,id_vars = 'Month', var_name="Source", value_name="Value")	
         
 	
-	fig=px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group', width=1000, height=500)
+	fig=px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group',labels={'Value':'Energy (%)'}, width=1000, height=500)
 	st.plotly_chart(fig)
 	st.markdown('''
 		<div class="jumbotron text-center" style='background-color: #fff'>
