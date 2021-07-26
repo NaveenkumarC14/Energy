@@ -174,8 +174,8 @@ if state1=='All':
 		  <h1 style="margin: auto; width: 100%;">Install Capacity</h1>
 		</div>
 		 ''', unsafe_allow_html=True);
-	install_capa2=pd.melt(install_capa,id_vars = 'Month', var_name="Source", value_name="Value")	
-        install_capa1=install_capa2.drop(columns="All (MW)")
+	install_capa1=pd.melt(install_capa,id_vars = 'Month', var_name="Source", value_name="Value")	
+        
 	fig =px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group')
 	st.plotly_chart(fig)
 
