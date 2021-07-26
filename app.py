@@ -3,7 +3,7 @@ import streamlit as st
 df=pd.read_csv('States_RE.csv')
 
 daily_gen=pd.read_excel("https://docs.google.com/spreadsheets/d/10IYut8PflGBy18EJSQZshsjjvK27l0pD1IqltAwVwSE/edit?usp=sharing")
-install_capa=pd.read_excel("https://docs.google.com/spreadsheets/d/1Z2Wtd3FYxfyeqn0pqUrgd7HDDWOyLnEcR1QnycUoHIM/edit?usp=sharing"
+install_capa=pd.read_excel("https://docs.google.com/spreadsheets/d/1Z2Wtd3FYxfyeqn0pqUrgd7HDDWOyLnEcR1QnycUoHIM/edit?usp=sharing")
 month_gen=pd.read_excel("https://docs.google.com/spreadsheets/d/1aZFiFji_xGjgZa1YfzUwvWgMfwL9_1fdR2U2QvyripA/edit?usp=sharing")
 st.markdown('''
 <div class="jumbotron text-center" style='background-color: #fff'>
