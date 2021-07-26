@@ -203,7 +203,7 @@ if state1=='All':
 	ut=pd.read_csv("India's Capacity Utilisation.csv")
 	st.markdown('''
 		<div class="jumbotron text-center" style='background-color: #fff'>
-		  <h1 style="margin: auto; width: 100%;">Capacity Utilisation</h1>
+		  <h1 style="margin: auto; width: 100%;">Capacity Utilisation (%)</h1>
 		</div>
 		 ''', unsafe_allow_html=True);
 	install_capa1=pd.melt(ut,id_vars = 'Month', var_name="Source", value_name="Value")	
@@ -213,7 +213,7 @@ if state1=='All':
 	st.plotly_chart(fig)
 	st.markdown('''
 		<div class="jumbotron text-center" style='background-color: #fff'>
-		  <h1 style="margin: auto; width: 100%;">Overall Capacity Utilisation</h1>
+		  <h1 style="margin: auto; width: 100%;">Overall Capacity Utilisation (%)</h1>
 		</div>
 		 ''', unsafe_allow_html=True);
 	fig = px.pie(install_capa1,values='Value',names='Source')
