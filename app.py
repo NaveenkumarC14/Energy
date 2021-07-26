@@ -175,7 +175,7 @@ if state1=='All':
 		</div>
 		 ''', unsafe_allow_html=True);
 	install_capa2=pd.melt(install_capa,id_vars = 'Month', var_name="Source", value_name="Value")	
-        install_capa1=[['Month','Solar Rooftop (MW)','Small Hydel (MW)','Solar (MW)','Bio Power (MW)','Wind (MW)']]
+        install_capa1=install_capa2[['Month','Solar Rooftop (MW)','Small Hydel (MW)','Solar (MW)','Bio Power (MW)','Wind (MW)']]
 	fig =px.bar(install_capa1,x='Month',y="Value",color='Source',barmode='group')
 	st.plotly_chart(fig)
 
