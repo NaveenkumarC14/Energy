@@ -14,6 +14,15 @@ st.markdown('''
   <h2></h2><p style="margin: auto; font-weight: bold; text-align: center; width: 100%;">Renewable Energy Live Update in India</p>
   <h3></h3>
  
+ page_bg_img = '''
+<style>
+body {
+background-image: path("download.gif");
+background-size: cover;
+}
+</style>
+'''
+ 
 </div>
 ''', unsafe_allow_html=True);
 image= open("download.gif",'rb')
