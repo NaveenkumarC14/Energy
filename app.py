@@ -17,8 +17,8 @@ st.markdown('''
 ''', unsafe_allow_html=True);
 					     
 state=st.selectbox('Select a state',df['State'].unique())
-	state=df[df['State']==state]
-	state_code=state['StateCode'].iloc[0]
+state=df[df['State']==state]
+state_code=state['StateCode'].iloc[0]
 #str(state_code)
 			   
 import requests as rq
