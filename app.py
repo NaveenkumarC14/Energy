@@ -2,10 +2,6 @@ import pandas as pd
 import streamlit as st
 df=pd.read_csv('States_RE.csv')
 
-state=st.selectbox('Select a state',df['State'].unique())
-state=df[df['State']==state]
-state_code=state['StateCode'].iloc[0]
-#str(state_code)
 
 
 st.markdown('''
@@ -16,6 +12,10 @@ st.markdown('''
  
 </div>
 ''', unsafe_allow_html=True);
+state=st.selectbox('Select a state',df['State'].unique())
+state=df[df['State']==state]
+state_code=state['StateCode'].iloc[0]
+#str(state_code)
 
 
 import requests as rq
@@ -53,7 +53,9 @@ st.markdown('''
                         <div 
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>emissions mitigated</p> </div>  
                         <div 
-			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>''' + str(CO2_Date) + '''</p></div> 
+			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'>''' + str(CO2_Date) + '''</p>
+			<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
+			</div> 
                     </div>
                 </div>
             </div>
