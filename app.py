@@ -7,7 +7,7 @@ df=pd.read_csv('States_RE.csv')
 st.markdown('''
 <div class="jumbotron text-center" style='background-color: #fff'>
   <h1 style="margin: auto; width: 100%;">Renewables India Dashboard</h1>
-  <h2></h2><p style="margin: auto; font-weight: bold; text-align: center; width: 100%;">It shows Renewables Energy Live Update in India</p>
+  <h2></h2><p style="margin: auto; font-weight: bold; text-align: center; width: 100%;">It shows Renewable Energy Live Update in India</p>
   <h3></h3>
  
 </div>
@@ -60,7 +60,7 @@ st.markdown('''
                 <div class="row">
                     <div class="col-xs-12 col-sm-12">
 <div
-			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(CO2) +  '''</p></div>
+			<p style='text-align: center; font-size: 40px; font-weight: 600; color:  blue'>''' + str(CO2) +  '''</p><span class="card-title-1">tCO<sub>2</sub></span></div>
                         <div 
 			<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>CO2 emissions mitigated</p> </div>  
                         <div 
