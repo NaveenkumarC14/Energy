@@ -165,7 +165,7 @@ if select=='India':
 				<div 
 				<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>CO2 emissions mitigated</p> </div>  
 				<div 
-				<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>''' + str(daily_gen['Date'].iloc[-1]) + '''</p></div>
+				<p style ='text-align: center; background-color:#d1f0a2" font-weight: 400 ;color:  blue'>''' + str(daily_gen['Date'].iloc[-1]) + '''</p></div>
 			    <div 
 				<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color: blue'></p>
 				</div>  
@@ -211,7 +211,7 @@ if select=='India':
 				<div 
 				<p style ='text-align: center; background-color: #d1f0a2; font-weight: 400 ;color:  blue'>Wind Generation</p> </div>  
 				<div 
-				<p style ='text-align: center; background-color: white; font-weight: 400 ;color:  blue'>''' + str(daily_gen['Date'].iloc[-1]) + '''</p></div>
+				<p style ='text-align: center; background-color: #d1f0a2"; font-weight: 400 ;color:  blue'>''' + str(daily_gen['Date'].iloc[-1]) + '''</p></div>
 			    <div 
 				<p style ='text-align: center; background-color: white; font-weight: 400 ;color: blue'></p>
 				</div>  
