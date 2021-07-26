@@ -253,7 +253,7 @@ st.markdown('''
  ''', unsafe_allow_html=True);
 daily_gen2=pd.melt(daily_gen,id_vars = 'Date', var_name="Source", value_name="Value")	
 
-fig = px.line(daily_gen2, x="Date", y="Value", color="Source",line_group="Source", hover_name="Source", width=800, height=400)
+fig = px.line(daily_gen2, x="Date", y="Value", color="Source",line_group="Source", hover_name="Source", width=1000, height=500)
 st.plotly_chart(fig)
 
 
