@@ -15,6 +15,15 @@ st.markdown('''
  
 </div>
 ''', unsafe_allow_html=True);
+image= open("download.gif",'rb')
+contents = image.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+image.close()
+
+st.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="corona gif">',
+    unsafe_allow_html=True,
+)
 					     
 state1=st.selectbox('Select a state',df['State'].unique())
 state=df[df['State']==state1]
