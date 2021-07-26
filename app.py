@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import plotly.express as px
 df=pd.read_csv('States_RE.csv')
 
 daily_gen=pd.read_csv("India's DailyGeneration.csv")
@@ -244,9 +245,11 @@ if select=='India':
 		</div>
 	    </div>
 	''', unsafe_allow_html=True);
-	
+       daily_gen1=pd.melt(daily_gen,id_vars = ['Date'])	
 
-
+       fig = px.line(daily_gen1, x="Date", y="value", color="variable",
+              line_group="variable", hover_name="variable")
+	st.plotly_chart(fig)
 
 
 
