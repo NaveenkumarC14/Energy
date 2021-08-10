@@ -231,12 +231,8 @@ st.markdown('''
                 Report Date 
              : activate to sort column ascending" style="width: 110px;" aria-sort="descending">
                 Report Date 
-            </th><th class="align-center sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="                    
-                Download 
-             : activate to sort column ascending" style="width: 137px;">                    
-                Download 
-                <img src="https://cea.nic.in/wp-content/uploads/2020/05/pdf.png" class="ml-5">
-            </th><th class="align-center sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="
+            </th>
+            <th class="align-center sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="
                 Download                 : activate to sort column ascending" style="width: 134px;">
                 Download                <img src="https://cea.nic.in/wp-content/uploads/2020/05/excel.png" class="ml-5"></th></tr>
         </thead>
