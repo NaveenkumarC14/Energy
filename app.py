@@ -250,7 +250,6 @@ st.markdown('''
         <tbody><tr role="row" class="odd"><td>DailyRE08082021</td><td class="sorting_1">2021-08-08</td>
 	<td>
 	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/8_Aug.pdf" download=""><i class="fa fa-download down-icon" aria-hidden="true"></i></a>
-	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/8_Aug.pdf" target="_blank"><i class="fa fa-eye fa-3 ml-5" aria-hidden="true"></i></a>
 	</td><td>
 	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/8_Aug.xlsx" download=""><i class="fa fa-download down-icon" aria-hidden="true"></i></a>
 	</td></tr>
