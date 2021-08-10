@@ -240,8 +240,7 @@ st.markdown('''
 	<tr role="row" class="odd"><td>DailyRE08082021</td>
 	<td class="sorting_1">2021-08-08</td>
 	<td>
-	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/8_Aug.pdf" download=""> <img src="https://cea.nic.in/wp-content/uploads/2020/05/pdf.png" class="ml-5"> </a>
-	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/8_Aug.pdf" target="_blank"><i class="fa fa-eye fa-3 ml-5" aria-hidden="true"></i> </a></td><td>
+	<td>
 	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/8_Aug.xlsx" download=""><img src="https://cea.nic.in/wp-content/uploads/2020/05/excel.png" class="ml-5"></i></a></td></tr>
 	<tr role="row" class="even"><td>DailyRE07082021</td><td class="sorting_1">2021-08-07</td><td>
 	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/7_Aug.pdf" download=""><img src="https://cea.nic.in/wp-content/uploads/2020/05/pdf.png"</i></a>
