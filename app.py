@@ -222,7 +222,8 @@ if state1=='All':
 	
 st.markdown('''
 	<div class="jumbotron text-center" style='background-color: #fff'>
-		  <h1 style="margin: auto; width: 100%;">Daily Renewable Generation Report (%)</h1>
+		  <h1 style="margin: auto; width: 100%;">Daily Renewable Generation Report</h1>
+		  <h2></h2>
 		</div>
 	<table id="table" width="100%" class="dataTable no-footer" role="grid" aria-describedby="table_info" style="width: 100%;">
              <thead>
