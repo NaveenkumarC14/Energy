@@ -277,10 +277,19 @@ st.markdown('''
 ''', unsafe_allow_html=True);
 
 
-<tr role="row" class="odd"><td>DailyRE09082021</td>
-	<td class="sorting_1">2021-08-09</td>
-	<td>
-	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/9_Aug.xlsx" download=""><img src="https://cea.nic.in/wp-content/uploads/2020/05/excel.png" class="ml-5"></i></a></td></tr>
+#9th
+
+#<tr role="row" class="odd"><td>DailyRE09082021</td>
+#	<td class="sorting_1">2021-08-09</td>
+#	<td>
+#	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/9_Aug.xlsx" download=""><img src="https://cea.nic.in/wp-content/uploads/2020/05/excel.png" class="ml-5"></i></a></td></tr>
+
+#10th
+
+#<tr role="row" class="odd"><td>DailyRE10082021</td>
+#	<td class="sorting_1">2021-08-10</td>
+#	<td>
+#	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/10_Aug.xlsx" download=""><img src="https://cea.nic.in/wp-content/uploads/2020/05/excel.png" class="ml-5"></i></a></td></tr>
 
 
 	
