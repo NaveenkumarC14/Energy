@@ -272,7 +272,6 @@ st.markdown('''
 	<tr role="row" class="even"><td>DailyRE30072021</td><td class="sorting_1">2021-07-30</td>
 	<td>
 	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/30_July.xlsx" download=""><img src="https://cea.nic.in/wp-content/uploads/2020/05/excel.png" class="ml-5"></i></a></td></tr>
-	<div class="dataTables_paginate paging_simple_numbers" id="table_paginate"><a class="paginate_button previous" aria-controls="table" data-dt-idx="0" tabindex="0" id="table_previous">Previous</a><span><a class="paginate_button " aria-controls="table" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button current" aria-controls="table" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="table" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="table" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="table" data-dt-idx="5" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="table" data-dt-idx="6" tabindex="0">83</a></span><a class="paginate_button next" aria-controls="table" data-dt-idx="7" tabindex="0" id="table_next">Next</a></div>
 	</tbody>
     </table>
 ''', unsafe_allow_html=True);
