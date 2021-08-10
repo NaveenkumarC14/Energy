@@ -221,18 +221,13 @@ if state1=='All':
 	
 	
 st.markdown('''	
-	
 	<div class="box-container">
-
-
             <div class="mt-10">
                 From Date:
                 <input name="min" id="min" type="text">
                 To Date:
                 <input name="max" id="max" type="text">
             </div>
-
-
             <div id="table_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="table_length"><label>Display <select name="table_length" aria-controls="table" class=""><option value="10">10</option><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="-1">All</option></select> Records per page</label></div><div id="table_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="table"></label></div><table id="table" width="100%" class="dataTable no-footer" role="grid" aria-describedby="table_info" style="width: 100%;">
              <thead>
               <tr role="row"><th class="sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="
@@ -245,7 +240,6 @@ st.markdown('''
                 Report Date 
             </th><th class="align-center sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="                    
                 Download 
-                
              : activate to sort column ascending" style="width: 137px;">                    
                 Download 
                 <img src="https://cea.nic.in/wp-content/uploads/2020/05/pdf.png" class="ml-5">
@@ -257,3 +251,9 @@ st.markdown('''
     </table><div class="dataTables_info" id="table_info" role="status" aria-live="polite">Showing 1 to 10 of 828 reports</div><div class="dataTables_paginate paging_simple_numbers" id="table_paginate"><a class="paginate_button previous disabled" aria-controls="table" data-dt-idx="0" tabindex="-1" id="table_previous">Previous</a><span><a class="paginate_button current" aria-controls="table" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="table" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="table" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="table" data-dt-idx="4" tabindex="0">4</a><a class="paginate_button " aria-controls="table" data-dt-idx="5" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="table" data-dt-idx="6" tabindex="0">83</a></span><a class="paginate_button next" aria-controls="table" data-dt-idx="7" tabindex="0" id="table_next">Next</a></div></div>
 </div>
 ''', unsafe_allow_html=True);
+
+
+
+
+
+
