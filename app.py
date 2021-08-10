@@ -222,31 +222,6 @@ if state1=='All':
 	
 st.markdown('''	
 	<div class="box-container">
-            <div class="mt-10">
-                From Date:
-                <input name="min" id="min" type="text">
-                To Date:
-                <input name="max" id="max" type="text">
-            </div>
-            <div id="table_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="table_length"><label>Display <select name="table_length" aria-controls="table" class=""><option value="10">10</option><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="-1">All</option></select> Records per page</label></div><div id="table_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="table"></label></div><table id="table" width="100%" class="dataTable no-footer" role="grid" aria-describedby="table_info" style="width: 100%;">
-             <thead>
-              <tr role="row"><th class="sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="
-                Report Name 
-             : activate to sort column ascending" style="width: 134px;">
-                Report Name 
-            </th><th class="align-center sorting_desc" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="
-                Report Date 
-             : activate to sort column ascending" style="width: 110px;" aria-sort="descending">
-                Report Date 
-            </th><th class="align-center sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="                    
-                Download 
-             : activate to sort column ascending" style="width: 137px;">                    
-                Download 
-                <img src="https://cea.nic.in/wp-content/uploads/2020/05/pdf.png" class="ml-5">
-            </th><th class="align-center sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="
-                Download                 : activate to sort column ascending" style="width: 134px;">
-                Download                <img src="https://cea.nic.in/wp-content/uploads/2020/05/excel.png" class="ml-5"></th></tr>
-        </thead>
         <tbody><tr role="row" class="odd"><td>DailyRE08082021</td><td class="sorting_1">2021-08-08</td>
 	<td>
 	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/8_Aug.pdf" download=""><i class="fa fa-download down-icon" aria-hidden="false"></i></a>
