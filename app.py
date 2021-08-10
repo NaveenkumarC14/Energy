@@ -221,6 +221,11 @@ if state1=='All':
 	
 	
 st.markdown('''
+	<div class="col-md-12 col-sm-12 col-lg-12 text-center">
+    			<h3 class="page-title">
+                   Daily Renewable Generation Report         
+               </h3>
+           </div>
 	<table id="table" width="100%" class="dataTable no-footer" role="grid" aria-describedby="table_info" style="width: 100%;">
              <thead>
               <tr role="row"><th class="sorting" tabindex="0" aria-controls="table" rowspan="1" colspan="1" aria-label="
