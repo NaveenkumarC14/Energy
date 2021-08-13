@@ -242,6 +242,10 @@ st.markdown('''
                 Download                <img src="https://cea.nic.in/wp-content/uploads/2020/05/excel.png" class="ml-5"></th></tr>
         </thead>
         <tbody>	
+	<tr role="row" class="odd"><td>DailyRE12082021</td>
+	<td class="sorting_1">2021-08-12</td>
+	<td>
+	<a href="https://cea.nic.in/wp-content/uploads/daily_reports/12_Aug.xlsx" download=""><img src="https://cea.nic.in/wp-content/uploads/2020/05/excel.png" class="ml-5"></i></a></td></tr>
 	<tr role="row" class="odd"><td>DailyRE11082021</td>
 	<td class="sorting_1">2021-08-11</td>
 	<td>
